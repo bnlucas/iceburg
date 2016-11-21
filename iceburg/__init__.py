@@ -1,5 +1,6 @@
 from urlparse import urlparse
 
+from .config import __version__
 from models import Client, Wrap
 from .utils import sort
 
