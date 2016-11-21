@@ -22,7 +22,7 @@ JAR_FILE_PATH = os.path.join('java', 'AgentUID.jar')
 
 setup(
     name='iceburg',
-    version='3.0.0',
+    version=__import__('iceburg').__version__,
     description='Recovery tools to the Experience Upgrade Recovery project.',
     long_description=__doc__,
     author='Nathan Lucas',
